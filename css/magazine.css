@@ -1,0 +1,94 @@
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+article, aside, section, footer, .logo, .nav-item, .main-body nav {
+    background-color:gray;
+    border: 3px solid white;
+    color: white;
+}
+
+/* HEADER  */
+
+header {
+    height: 120px;
+    display: flex;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    width: 20%;
+    height: 60px;
+}
+
+/* MAIN BODY */
+
+.main-body {
+    display: flex;
+    height: 600px;
+}
+
+.main-body nav {
+    height: 600px;
+    width: 20%;
+}
+
+/* MAIN BODY CONTENT */
+
+.main-body-content {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 79%;
+}
+
+.main-body-content > section {
+    height: 20%;
+    background-color: gray;
+    border: 3px solid white;
+}
+
+.article-container {
+    display: flex;
+    height: 60%;
+}
+
+.article-container article {
+    width: 80%;
+}
+
+.article-container aside {
+    width: 19%;
+}
+
+
+/* SECTION CONTAINER */
+.section-container {
+    display: flex;
+    height: 20%;
+}
+
+.section-container section {
+    width: 25%;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+}

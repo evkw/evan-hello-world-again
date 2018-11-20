@@ -1,0 +1,40 @@
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, article, aside, footer {
+    background-color:gray;
+    border: 3px solid white;
+    color: white;
+}
+
+/* HEADER  */
+
+header {
+    height: 200px;
+}
+
+/* MAIN BODY */
+
+.main-body {
+    display: flex;
+}
+
+article {
+    height: 500px;
+    width: 70%;
+}
+
+aside {
+    height: 500px;
+    width: 15%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+}
